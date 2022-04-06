@@ -1,0 +1,764 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'digital-7';
+  src: url("../font/digital-7.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UhBeeJJIBBABBA';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeJJIBBABBA.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '국립박물관문화재단클래식L';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식L.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'punk_kid';
+  src: url("../font/punk kid.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+.wrap {
+  position: relative;
+  width: 1920px;
+  height: 930.985px;
+  background-color: coral;
+}
+
+.wrap .elevator_frame {
+  position: absolute;
+  width: 100%;
+  height: 930.985px;
+}
+
+.wrap .elevator_frame .elevator_head {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  background-image: url("../img/metal_texture_05.jpg");
+  -webkit-box-shadow: 0 0 40px inset rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 40px inset rgba(165, 71, 42, 0.5);
+}
+
+.wrap .elevator_frame .elevator_head .paper_cctv {
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 100px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.wrap .elevator_frame .elevator_head .head_display {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  background-color: #191919;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #B70000;
+  font-size: 60px;
+  text-align: center;
+  line-height: 104px;
+  font-family: 'digital-7';
+}
+
+.wrap .elevator_frame .elevator_head .content_head {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -webkit-transform: translate(50%, -50%) rotate(10deg);
+          transform: translate(50%, -50%) rotate(10deg);
+  text-align: left;
+  font-size: 60px;
+  color: #821e1e;
+  font-family: 'punk_kid';
+  line-height: 1;
+}
+
+.wrap .elevator_frame .elevator_head_under {
+  width: 100%;
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall {
+  position: relative;
+  width: 360px;
+  height: 100%;
+  background-image: url("../img/metal_texture_07.jpg");
+  background-size: cover;
+  -webkit-box-shadow: 0 0 40px inset rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 40px inset rgba(165, 71, 42, 0.5);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .paper_mart {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 150px;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .paper_jjajang {
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 100px;
+  -webkit-transform: rotate(-7deg);
+          transform: rotate(-7deg);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .paper_gcova {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 100px;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .paper_delivery {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 100px;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .graffiti_text {
+  width: 300px;
+  height: 100px;
+  margin-top: 100px;
+  margin-left: 20px;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+  font-family: 'UhBeeJJIBBABBA';
+  color: #a30808;
+  font-size: 30px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .graffiti_text_two {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  margin-left: 200px;
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
+  font-family: 'UhBeeJJIBBABBA';
+  color: #191919;
+  font-size: 18px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .graffiti_text_two img {
+  position: absolute;
+  top: -80%;
+  left: -36%;
+  width: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate {
+  position: absolute;
+  width: 50%;
+  height: 80%;
+  background-image: url("../img/metal_texture_02.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 15px inset rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 15px inset rgba(165, 71, 42, 0.5);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .control_display {
+  width: 80%;
+  height: 30%;
+  background-color: #191919;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  overflow: hidden;
+  font-family: 'digital-7';
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .control_display .number_list {
+  width: 100%;
+  height: 400%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .control_display .number_list li {
+  width: 100%;
+  height: 25%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 200px;
+  color: #B70000;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .button_list {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .button_list .floor_button {
+  width: 50px;
+  height: 50px;
+  background-color: #616161;
+  border: 0;
+  outline: 0;
+  -webkit-box-shadow: 0 0 15px inset rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 15px inset rgba(165, 71, 42, 0.5);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 50px;
+  color: silver;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .open_or_close {
+  width: 80%;
+  height: 10%;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .open_or_close .o_or_c {
+  width: 50px;
+  height: 50px;
+  background-color: #616161;
+  -webkit-box-shadow: 0 0 15px inset rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 15px inset rgba(165, 71, 42, 0.5);
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .open_or_close .open_button .arrow_left {
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid silver;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-top: 17px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .open_or_close .open_button .arrow_right {
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid silver;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 17px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .open_or_close .close_button .arrow_left {
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid silver;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  margin-top: 17px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .open_or_close .close_button .arrow_right {
+  width: 0px;
+  height: 0px;
+  border-bottom: 15px solid silver;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  margin-top: 17px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_wall .control_plate .click_selected {
+  border: 3px solid #B70000;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  /************************************************************** main_content start **************************************************************/
+  /************************************************************** main_content end **************************************************************/
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box {
+  position: absolute;
+  width: 100%;
+  height: 400%;
+  background-color: yellowgreen;
+  margin: 0 auto;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor_list {
+  width: 100%;
+  height: 25%;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor4 {
+  background-image: url("../gif/men3.gif");
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor4 .first_text_box {
+  display: inline-block;
+  width: 60%;
+  color: #fff;
+  font-size: 25px;
+  line-height: 2;
+  font-family: 'DungGeunMo';
+  margin-top: 5%;
+  text-align: left;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 {
+  background-color: chocolate;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .gif_area {
+  width: 50%;
+  height: 100%;
+  background-image: url("../gif/coding_man.gif");
+  background-size: cover;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: #000733;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: 'DungGeunMo';
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area .profile_img {
+  width: 200px;
+  height: 0px;
+  background-image: url("../img/baek.jpg");
+  background-size: cover;
+  float: right;
+  opacity: 0.8;
+  -webkit-transition: height 5s;
+  transition: height 5s;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area .profile_text {
+  font-size: 16px;
+  padding-top: 50px;
+  line-height: 2.5;
+  color: whitesmoke;
+  opacity: 0.8;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area .console_display {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55%;
+  background-color: #191919;
+  border: 10px solid gray;
+  border-top: 30px solid gray;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area .console_display .console_text {
+  padding: 30px;
+  color: whitesmoke;
+  font-size: 18px;
+  display: none;
+  line-height: 1.5;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area .console_display .console_text strong {
+  color: yellow;
+  font-weight: normal;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor3 .profile_area .text_area .console_display::before {
+  content: "CONSOLE";
+  position: absolute;
+  top: -4%;
+  left: 6.5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 {
+  position: relative;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .no_signal_area {
+  position: absolute;
+  width: 945px;
+  height: 100%;
+  background-image: url("../gif/no_signal.gif");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .no_signal_area .display_project {
+  position: relative;
+  height: 88%;
+  width: 0%;
+  background-image: url("../img/project_0.PNG");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .no_signal_area .display_project .project_text {
+  position: absolute;
+  padding: 10px;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  color: whitesmoke;
+  font-family: 'DungGeunMo';
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .vintage_tv {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 40;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .tv_controls {
+  position: absolute;
+  z-index: 50;
+  width: 223px;
+  height: 307px;
+  bottom: 11.5%;
+  right: 1.5%;
+  background-color: #261d1a;
+  border: 3px solid #000;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .tv_controls .channel_move_btn {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 44px;
+  color: #5d5d5d;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  cursor: pointer;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .tv_controls .channel_move_btn:first-child {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .tv_controls .tv_view_btn {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  background-color: #5d5d5d;
+  margin: 0 auto;
+  border: 2px solid #000;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor2 .tv_controls .tv_view_btn .inner_btn {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #5e3f36;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  text-align: center;
+  line-height: 80px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'DungGeunMo';
+  cursor: pointer;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 {
+  background-color: #1e21d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: #000733;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-image: url("../img/room3.gif");
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  -webkit-transition: all 5s;
+  transition: all 5s;
+  z-index: 101;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_img {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 73%;
+  left: 77%;
+  cursor: pointer;
+  display: none;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_open_box {
+  position: absolute;
+  width: 0px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate3d(1, 1, 1, 45deg);
+          transform: translate(-50%, -50%) rotate3d(1, 1, 1, 45deg);
+  overflow: hidden;
+  font-family: '국립박물관문화재단클래식L';
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_open_box .news_text_01 {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  top: 25%;
+  left: 33%;
+  -webkit-transform: rotate(-37deg);
+          transform: rotate(-37deg);
+  text-align: center;
+  line-height: 2;
+  font-size: 30px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_open_box .news_text_02 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 42%;
+  left: 43%;
+  -webkit-transform: rotate(-37deg);
+          transform: rotate(-37deg);
+  text-align: center;
+  line-height: 2;
+  font-size: 28px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_open_box .kakao_qr {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 63%;
+  left: 52%;
+  -webkit-transform: rotate3d(1, -1, 1, -45deg);
+          transform: rotate3d(1, -1, 1, -45deg);
+  text-align: center;
+  line-height: 2;
+  font-size: 30px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_open_box .news_text_03 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 56%;
+  left: 65%;
+  -webkit-transform: rotate3d(1, -1, 1, -45deg);
+          transform: rotate3d(1, -1, 1, -45deg);
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_exit_room .news_open_img {
+  width: 700px;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .floor1_content .floor1_text {
+  position: absolute;
+  width: 90%;
+  height: 60%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: whitesmoke;
+  font-family: 'DungGeunMo';
+  font-size: 18px;
+  line-height: 2;
+  z-index: 100;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .content_box .floor1 .penguin_area {
+  width: 50%;
+  height: 100%;
+  background-image: url("../gif/penguin.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .door {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/metal_texture_05.jpg");
+  background-size: cover;
+  border: 2px solid gray;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  z-index: 500;
+  -webkit-box-shadow: 0 0 50px inset rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 50px inset rgba(165, 71, 42, 0.5);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .door img {
+  width: 100px;
+  -webkit-box-shadow: 0 0 10px rgba(165, 71, 42, 0.5);
+          box-shadow: 0 0 10px rgba(165, 71, 42, 0.5);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .left_door {
+  border-right: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .left_door img {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .right_door {
+  border-left: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .right_door img {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrap .elevator_frame .elevator_head_under .elevator_door_area .closed {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=index.css.map */
